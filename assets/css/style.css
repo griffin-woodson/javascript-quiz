@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    font-size: 20px;
+}
+
+header > button, p {
+    background-color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    background-color: #0c5417;
+    padding: 20px 40px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button:hover,
+#high-scores-btn:hover,
+.answer:hover {
+    cursor: pointer;
+    color:black;
+    background-color: #2ec247;
+    box-shadow: 1px 2px 8px #0c5417;
+}
+
+#high-scores-btn {
+    border: none;
+    box-shadow: none;
+    color: #5d7cc0;
+}
+
+/* Page styling */
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 350px;
+}
+
+#intro-section h1 {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+#intro-section p {
+    width: 60%;
+}
+
+/* Quiz styling */
+#quiz-section h2 {
+    width: 80%;
+    padding: 0 30px;
+    text-align: center;
+    align-self: center;
+}
+
+#end-section {
+    justify-content: center;
+}
+
+#end-section h2 {
+    margin-bottom: 15px;
+}
+
+#end-section div, form, p {
+    margin: 10px 0;
+}
+
+#end-section p {
+    font-size: 20px;
+}
+
+#end-section form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+#end-section div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#end-section label {
+    font-weight: bold;
+}
+
+#end-section input {
+    height: 24px;
+    border-radius: 5px;
+    border: 2px solid #0c5417;
+    background-color: #f6fcf7;
+}
+
+#high-scores-section {
+    justify-content: center;
+}
+
+#high-scores-section h2, ul {
+    margin-bottom: 5%;
+}
+
+#high-scores-section ul {
+    list-style: none;
+    font-weight: bold;
+    letter-spacing: 0.25vw;
+    line-height: 1.8vh;
+}
+
+#high-scores-section div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 45px;
+}
+
+.answer-list {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: flex-start;
+    margin-left: 50px;
+    justify-content: space-evenly;
+}
+
+.answer {
+    background-color: #0c5417;
+    color: #eff8ff;
+    padding: 20px 40px;
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 1px 2px 8px #0c5417;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.message {
+    width: 30%;
+    color:blueviolet;
+    text-align: center;
+    margin: 6% auto;
+    font-size: 24px;
+    border-bottom: 3px blueviolet solid;
+}
